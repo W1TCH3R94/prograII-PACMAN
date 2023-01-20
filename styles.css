@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#juego {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 700px;
+  margin-top: 50px;
+  margin-left: 50px;
+  box-sizing: border-box;
+  align-items: center;
+  background: black;
+}
+#tablero-informacion {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  background: pink;
+}
+#vidas {
+  width: 50px;
+  margin-left: 20px;
+  height: 20px;
+  border: 2px solid red;
+}
+#puntaje-actual {
+  width: 50px;
+  height: 20px;
+  border: 2px solid green;
+}
+#puntaje-record {
+  width: 100px;
+  height: 20px;
+  border: 2px solid white;
+}
+#puntaje-maximo {
+  width: 50px;
+  height: 20px;
+  margin-right: 20px;
+  border: 2px solid brown;
+}
+#tablero-juego {
+  width: 580px;
+  height: 91%;
+  margin-top: 10px;
+  background: blue;
+}
