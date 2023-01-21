@@ -6,12 +6,12 @@ body {
   display: flex;
   flex-direction: column;
   width: 600px;
-  height: 700px;
-  margin-top: 50px;
-  margin-left: 50px;
+  height: 860px;
+  margin-top: 10px;
+  margin-left: 10px;
   box-sizing: border-box;
   align-items: center;
-  background: black;
+  background: green;
 }
 #tablero-informacion {
   display: flex;
@@ -47,7 +47,23 @@ body {
 }
 #tablero-juego {
   width: 580px;
-  height: 91%;
   margin-top: 10px;
-  background: blue;
+  background: brown;
+}
+#matriz {
+  display: grid;
+  margin-top: 0;
+}
+table{
+    
+}
+tr {
+  width: 20px;
+  height: 20px;
+}
+td {
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  color: white;
 }
